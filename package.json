@@ -1,0 +1,22 @@
+{
+  "name": "node-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "devStart": "nodemon main.js",
+    "eslint": "eslint --ignore-path .gitignore ."
+  },
+  "keywords": [],
+  "author": "Danislav Chengeliev",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
+}
